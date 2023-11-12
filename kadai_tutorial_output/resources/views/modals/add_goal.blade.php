@@ -2,7 +2,6 @@
     <!-- ↑でクリックしたときに表示するモーダルを指定している -->
     <!-- tabindex="-1" でそのオブジェクトにフォーカス(ピント)が移動しなくなる -->
     
-     <!-- ★★★↓のdivなんでいるのか？　-->
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -11,7 +10,7 @@
             </div>
             <form action="{{ route('goals.store') }}" method="post">
                 @csrf
-                <div class="modal-body"> <!-- ★★★なんでいるのか？　-->
+                <div class="modal-body"> 
                     <input type="text" class="form-control" name="title">
                 </div>
                 <div class="modal-footer">

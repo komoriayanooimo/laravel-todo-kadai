@@ -54,7 +54,7 @@
                  <!-- ToDoの追加用モーダル　-->
                  @include('modals.add_todo') 
  
-                 <div class="col">     <!-- ★★★何をしているかわからない　-->
+                 <div class="col"> 
                      <div class="card bg-light">
                          <div class="card-body d-flex justify-content-between align-items-center">
                              <h4 class="card-title ms-1 mb-0">{{ $goal->title }}</h4>
